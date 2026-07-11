@@ -160,10 +160,25 @@ I specialize in **manual penetration testing** and uncovering **high-impact vuln
 
 ## 📂 My Work
 
-* 📁 Recon Methodology
-* 📁 Payload Collections
-* 📁 Bug Reports (Sanitized Writeups)
-* 📁 Wayback & Archived Data Analysis
+###  Bug Bounty Reports (Sanitized Writeups)
+Real-world vulnerability reports from private and public bug bounty programs.
+Target identities are redacted or generalized in accordance with each program's
+responsible disclosure policy.
+
+📁 [`/write-ups-reports`](./write-ups-reports)
+> Categorized by vulnerability class: ATO, SSRF, IDOR, 2FA Bypass, etc.
+
+---
+
+### 🔓 Open Source Vulnerability Research
+CVE research and public disclosures on open-source projects. Includes
+proof-of-concept analysis, root cause breakdown, and remediation notes.
+
+📁 [`/open-source-cves`](./open-source-cves)
+> Includes confirmed & pending CVEs —
+> Confirmed vulnerabilities in major open-source projects (details published
+> upon official maintainer disclosure)
+
 
 ---
 
