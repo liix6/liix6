@@ -41,6 +41,12 @@ I specialize in **manual penetration testing** and uncovering **high-impact vuln
 * Manual Web/API Penetration Testing (Burp Suite, browser DevTools)
 
 ---
+##  Certifications & Learning Path
+
+- ✅ [Google Cybersecurity Professional Certificate](رابط_credential_هنا)
+- 🔄 In Progress: eJPT
+- 🔄 In Progress: CompTIA Security+
+- 🎯 Planned: OSCP
 
 ## 🛠️ Tools & Environment
 
