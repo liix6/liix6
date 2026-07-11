@@ -84,7 +84,6 @@ I specialize in **manual penetration testing** and uncovering **high-impact vuln
 
 * Burp Suite Professional (Manual Testing Expert)
 * FFUF (Fuzzing & Discovery)
-* Metasploit
 * Vulnerability Scanners
 * Exploitation Tools
 
