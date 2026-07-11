@@ -172,7 +172,7 @@ Real-world vulnerability reports from private and public bug bounty programs.
 Target identities are redacted or generalized in accordance with each program's
 responsible disclosure policy.
 
-📁[Bug Bounty Writeups Repo](https://github.com/liix6/bugs-writeups)
+📁[Bugs Writeups Repo](https://github.com/liix6/bugs-writeups)
 > Categorized by vulnerability class: ATO, SSRF, IDOR, 2FA Bypass, etc.
 
 ---
