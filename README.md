@@ -180,7 +180,7 @@ responsible disclosure policy.
 CVE research and public disclosures on open-source projects. Includes
 proof-of-concept analysis, root cause breakdown, and remediation notes.
 
-📁 [`/open-source-cves`](./open-source-cves)
+📁 [/Open-Source-Vulnerability](./Open-Source-Vulnerability)
 > Includes confirmed & pending CVEs —
 > Confirmed vulnerabilities in major open-source projects (details published
 > upon official maintainer disclosure)
