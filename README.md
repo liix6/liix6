@@ -9,7 +9,8 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=HELLO+WORLD+L-966;Welcome+to+the+Null+Zone.;BE+ONE+OR+ZERO&center=true&width=1000&height=120&color=00FF00&font=VT323&size=60" />
 </p>
- Overview
+ 
+ ## Overview
 
 I specialize in **manual penetration testing** and uncovering **high-impact vulnerabilities** through deep analysis of application logic.My focus is not just finding bugs — but **turning them into real-world impact**.
 
@@ -171,7 +172,7 @@ Real-world vulnerability reports from private and public bug bounty programs.
 Target identities are redacted or generalized in accordance with each program's
 responsible disclosure policy.
 
-📁 [`/bugs-writeups`](./bugs-writeups)
+📁[Bug Bounty Writeups Repo](https://github.com/liix6/bugs-writeups)
 > Categorized by vulnerability class: ATO, SSRF, IDOR, 2FA Bypass, etc.
 
 ---
@@ -180,7 +181,7 @@ responsible disclosure policy.
 CVE research and public disclosures on open-source projects. Includes
 proof-of-concept analysis, root cause breakdown, and remediation notes.
 
-📁 [/Open-Source-Vulnerability](./Open-Source-Vulnerability)
+📁 [Open Source Vulnerability Research Repo](https://github.com/liix6/Open-Source-Vulnerability)
 > Includes confirmed & pending CVEs —
 > Confirmed vulnerabilities in major open-source projects (details published
 > upon official maintainer disclosure)
