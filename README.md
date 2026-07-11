@@ -165,7 +165,7 @@ Real-world vulnerability reports from private and public bug bounty programs.
 Target identities are redacted or generalized in accordance with each program's
 responsible disclosure policy.
 
-📁 [`/write-ups-reports`](./write-ups-reports)
+📁 [`/bugs-writeups`](./bugs-writeups)
 > Categorized by vulnerability class: ATO, SSRF, IDOR, 2FA Bypass, etc.
 
 ---
