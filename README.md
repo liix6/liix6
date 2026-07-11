@@ -29,12 +29,16 @@ I specialize in **manual penetration testing** and uncovering **high-impact vuln
 
 ## ⚔️ Core Expertise
 
-*  **Account Takeover (ATO)** via logic flaws
-*  Authentication & Authorization bypass
-*  API Security Testing & API Key Leaks
-*  Business Logic Vulnerabilities
-*  Sensitive Data Exposure & Internal Mapping
+* Account Takeover (ATO) via logic flaws
+* Authentication & Authorization bypass
+* API Security Testing & API Key Leaks
+* Business Logic Vulnerabilities
+* Sensitive Data Exposure & Internal Mapping
 * Vulnerability Chaining (Multi-step exploitation)
+* Open Source Security Research (CVE discovery & responsible disclosure)
+* Testing behind WAFs & Reverse Proxies (Nginx)
+* Enterprise Application Security (workflow/process engines, web portals)
+* Manual Web/API Penetration Testing (Burp Suite, browser DevTools)
 
 ---
 
@@ -115,31 +119,42 @@ I specialize in **manual penetration testing** and uncovering **high-impact vuln
 
 ## 🔴 Real Cases (Sanitized)
 
-###  Account Takeover (ATO)
+### Missing Sender Identity Verification (Message Broker / IoT Relay)
 
-* Improper Token Binding
-* Referer / State Confusion
-  ➜ Full account compromise
+* No validation of sender identity against target service ID
+* Rogue client can inject privileged job/command messages
+  ➜ Unauthorized execution of privileged system commands
 
-###  Authentication Bypass
+### Host Header Injection (Web Framework - Open Source)
 
-* Token not bound to user/session
-  ➜ Unauthorized access
+* Blind trust of X-Forwarded-Host header, no allowlist
+* Attacker-controlled header used to construct root URLs
+  ➜ Credential leakage to attacker-controlled origin
 
-###  SSRF
+### Host Header Injection → Account Takeover (Enterprise Portal - Open Source)
 
-* Redirect-based blacklist bypass
-* Internal network access (127.0.0.1 / SMB)
+* Unvalidated host header used in password reset URL generation
+  ➜ Reset link poisoning leads to full account takeover
 
-###  2FA/OTP Bypass
+### IDOR - Internal Identifier Disclosure
 
-* Client-side validation flaw
-  ➜ Admin panel takeover
+* Insecure Direct Object Reference exposes internal SSO identifier
+  ➜ Cross-user identifier disclosure
 
-###  Sensitive Data Exposure
+### Blind SSRF via Stored Injection
 
-* Next.js metadata leakage
-  ➜ Internal data disclosure
+* User-controlled referral parameter stored and later processed server-side
+  ➜ Blind outbound requests to attacker-specified destinations
+
+### Critical 2FA/OTP Bypass — Administrative Access
+
+* Client-side-only OTP validation logic
+  ➜ Full bypass leads to unauthorized admin panel access
+
+### SQL Injection → Authentication Bypass (Government/Critical Infrastructure)
+
+* Improper input sanitization in authentication query logic
+  ➜ Authentication bypass exposing sensitive operational records
 
 ---
 
